@@ -24,13 +24,13 @@ The PR added script fixtures, export-rewriting coverage, and benchmarks at two i
 
 [Merged September 11, 2026 · PR #12348](https://github.com/swc-project/swc/pull/12348)
 
-### Jujutsu: keep tests compatible with newer GnuPG output
+### Atuin: filter command history by multiple exit codes
 
-GnuPG 2.5.22 added certificate metadata to an unknown-key result, breaking an existing test expectation. My contribution updated the test to accept the precise old and new outputs and added parser coverage for the new metadata. Runtime behavior stayed unchanged.
+Added support for filtering command history by multiple exit codes, with tests covering exclusions, overlapping filters, and deletion selection.
 
-The integration test still checks the unknown-signature status and absent display value. The PR's Linux, macOS, and Windows test jobs passed.
+The change connects repeated CLI flags to database filtering. Included codes match any listed value; exclusions remove every listed code, including overlaps.
 
-[Merged September 11, 2026 · PR #10176](https://github.com/jj-vcs/jj/pull/10176)
+[Merged September 14, 2026 · PR #4132](https://github.com/atuinsh/atuin/pull/4132)
 
 ### DeepTutor: diagnose setup problems before a session
 
