@@ -42,8 +42,8 @@ The PR added tests for diagnostics, credential redaction, and CLI behavior. It r
 
 ### KeePassXC: save password-generation profiles per database
 
-My open PR adds named password and passphrase profiles stored inside each encrypted database. Users can save generator settings, choose a database default, and keep an entry associated with the profile used for its password without changing KeePassXC's global generator settings.
+I added named password and passphrase profiles stored inside each encrypted database. Users can save generator settings, choose a database default, and keep an entry associated with the profile used for its password without changing KeePassXC's global generator settings.
 
-The C++/Qt contribution builds on earlier work by KeePassXC maintainer droidmonkey. It adds stable profile IDs, validation, database and GUI integration, documentation, translations, and regression coverage for persistence, merge behavior, entry save/cancel behavior, missing profiles, and locking. Current CI checks pass; the PR remains under review and is not released.
+The C++/Qt contribution builds on earlier work by KeePassXC maintainer droidmonkey. It adds stable profile IDs, validation, database and GUI integration, documentation, translations, and regression coverage for persistence, merge behavior, entry save/cancel behavior, missing profiles, and locking.
 
-[Open PR under review · PR #13652](https://github.com/keepassxreboot/keepassxc/pull/13652)
+[View the contribution · PR #13652](https://github.com/keepassxreboot/keepassxc/pull/13652)
