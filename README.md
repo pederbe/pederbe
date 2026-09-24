@@ -20,9 +20,9 @@ My current work focuses on Rust. My earlier web and business applications used J
 
 The `export_default_from` transform traversed scripts even though it only needed module-level exports. My contribution replaced the visitor with a direct pass that returns immediately for scripts and processes the module body for modules.
 
-The PR added script fixtures, export-rewriting coverage, and benchmarks at two input sizes. The PR reports local benchmark improvements for scripts, with the four module cases classified as unchanged. This is a targeted transform optimization, not a claim about overall compiler speed.
+The PR added script fixtures, export-rewriting coverage, and benchmarks at two input sizes. The reported benchmarks show improvements for scripts, with the four module cases classified as unchanged.
 
-[Merged September 11, 2026 · PR #12348](https://github.com/swc-project/swc/pull/12348)
+[View the contribution · PR #12348](https://github.com/swc-project/swc/pull/12348)
 
 ### Atuin: filter command history by multiple exit codes
 
@@ -30,7 +30,7 @@ Added support for filtering command history by multiple exit codes, with tests c
 
 The change connects repeated CLI flags to database filtering. Included codes match any listed value; exclusions remove every listed code, including overlaps.
 
-[Merged September 14, 2026 · PR #4132](https://github.com/atuinsh/atuin/pull/4132)
+[View the contribution · PR #4132](https://github.com/atuinsh/atuin/pull/4132)
 
 ### DeepTutor: diagnose setup problems before a session
 
@@ -38,7 +38,7 @@ My contribution added `deeptutor doctor` to check model configuration, credentia
 
 The PR added tests for diagnostics, credential redaction, and CLI behavior. It reports 78 CLI tests passing and one skipped; the remote test summary also passed. The command gives users a way to investigate setup problems before starting a session.
 
-[Merged August 24, 2026 · PR #959](https://github.com/HKUDS/DeepTutor/pull/959)
+[View the contribution · PR #959](https://github.com/HKUDS/DeepTutor/pull/959)
 
 ### KeePassXC: save password-generation profiles per database
 
