@@ -39,3 +39,11 @@ My contribution added `deeptutor doctor` to check model configuration, credentia
 The PR added tests for diagnostics, credential redaction, and CLI behavior. It reports 78 CLI tests passing and one skipped; the remote test summary also passed. The command gives users a way to investigate setup problems before starting a session.
 
 [Merged August 24, 2026 · PR #959](https://github.com/HKUDS/DeepTutor/pull/959)
+
+### KeePassXC: save password-generation profiles per database
+
+My open PR adds named password and passphrase profiles stored inside each encrypted database. Users can save generator settings, choose a database default, and keep an entry associated with the profile used for its password without changing KeePassXC's global generator settings.
+
+The C++/Qt contribution builds on earlier work by KeePassXC maintainer droidmonkey. It adds stable profile IDs, validation, database and GUI integration, documentation, translations, and regression coverage for persistence, merge behavior, entry save/cancel behavior, missing profiles, and locking. Current CI checks pass; the PR remains under review and is not released.
+
+[Open PR under review · PR #13652](https://github.com/keepassxreboot/keepassxc/pull/13652)
