@@ -4,11 +4,28 @@ I'm a software developer focused on Rust and open source, with a background in b
 
 My background spans software development, business analysis, research, and IT leadership. Earlier in my career, I developed business software for a Toyota dealership and a legislative-text web application prototype for Norway's Ministry of Justice. I later worked on business analysis and software delivery at the European Parliament, coordinating an international development team.
 
-I use AI in development, including code generation. My work includes defining and speccing the problem, directing implementation, and working through tests and review feedback.
-
 Based in Essen, Germany. PhD in Information Systems.
 
 [Website and contact](https://pederbe.dev/) · [Contributions](https://github.com/pulls?q=is%3Apr+author%3Apederbe+is%3Apublic)
+
+## Fastmash: Fast statistics. Smarter tables.
+
+I built [Fastmash](https://fastmash.io), a Rust command-line tool for statistics on text and quoted CSV. It uses GNU datamash's familiar command language and adds named reports, weighted means, highest and lowest complete-record selection, text-table health checks, and ranked dataset comparisons.
+
+Software 80-bit arithmetic and built-in locale data keep results reproducible for the same version, input, and explicit settings on supported machines. Fastmash runs on Linux x86-64, including WSL2.
+
+[![Fastmash terminal demo: installation, colored help, and the same RefGene quartile command in both tools. Both return 4, 8, 14, and 10. The measured timing replay is slowed 20 times.](https://pederbe.dev/media/b70c62c3567c.gif)](https://fastmash.io)
+
+On RefGene quartiles, Fastmash took **26.6 ms versus GNU datamash 1.9's 112.8 ms**, or **4.2 times the speed**, on an Intel laptop running native Linux, with matching output.
+
+[Try Fastmash](https://fastmash.io) · [Source code](https://github.com/pederbe/fastmash) · [Benchmarks](https://fastmash.io/benchmarks/)
+
+<details>
+<summary>See the benchmark highlights</summary>
+
+[![Fastmash v0.1.0 benchmark highlights on two native Linux hosts: RefGene quartiles 4.2x and 3.8x, exon statistics per gene 1.9x and 1.7x, sum and mean of one million decimals 2.7x and 2.3x, grouped decimals 1.8x and 1.7x, and many small groups 1.5x and 1.4x.](https://pederbe.dev/media/89144da5e558.webp)](https://fastmash.io/benchmarks/)
+
+</details>
 
 ## Technologies
 
