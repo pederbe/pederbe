@@ -1,6 +1,6 @@
 # Dr. Peder Bergan
 
-I'm a software engineer focused on Rust and open source, with a background in building web applications and business tools. I enjoy turning practical problems into useful software.
+I'm a full-stack software engineer with experience building web applications, business software and developer tools. My recent work includes Ripscope for C code navigation and Fastmash for command-line statistics.
 
 My background spans software development, business analysis, research, and IT leadership. Earlier in my career, I developed business software for a Toyota dealership and a legislative-text web application prototype for Norway's Ministry of Justice. I later worked on business analysis and software delivery at the European Parliament, coordinating an international development team.
 
