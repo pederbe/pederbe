@@ -8,11 +8,23 @@ Based in Essen, Germany. PhD in Information Systems.
 
 [Website and contact](https://pederbe.dev/) · [Contributions](https://github.com/pulls?q=is%3Apr+author%3Apederbe+is%3Apublic)
 
+## Ripscope: Fast C navigation. An index that keeps up.
+
+I built [Ripscope](https://ripscope.com), a C code navigator written in safe Rust. Find definitions, follow callers and trace assignments through cscope's familiar queries, from Vim, Neovim or Emacs.
+
+Saved edits appear in subsequent editor searches automatically. The index updates changed files in one SQLite transaction, so queries read a complete revision. No compiler, preprocessor or compile database is needed.
+
+[![Ripscope in Vim: search for callers of greet, add and save a call, then search again to see the new caller.](https://ripscope.com/demo.gif)](https://ripscope.com)
+
+Ripscope 0.1.0 is free and open source for x86-64 Linux and Windows. Its public documentation explains the source-reading rules, measured comparisons and recognition limits.
+
+[Try Ripscope](https://ripscope.com) · [Source code](https://github.com/pederbe/ripscope) · [Benchmarks](https://ripscope.com/docs/reference/benchmarks/) · [How it is built](https://ripscope.com/docs/project/how-it-is-built/)
+
 ## Fastmash: Fast statistics. Smarter tables.
 
 I built [Fastmash](https://fastmash.io), a Rust command-line tool for statistics on text and quoted CSV. It uses GNU datamash's familiar command language and adds named reports, weighted means, highest and lowest complete-record selection, text-table health checks, and ranked dataset comparisons.
 
-Software 80-bit arithmetic and built-in locale data keep results reproducible for the same version, input, and explicit settings on supported machines. Fastmash runs on Linux x86-64, including WSL2.
+Software 80-bit arithmetic and built-in locale data keep results reproducible for the same version, input, and explicit settings on supported machines. Fastmash runs on Linux x86-64, Windows through WSL2, and Apple Silicon macOS 15 or later.
 
 [![Fastmash terminal demo: installation, colored help, and the same RefGene quartile command in both tools. Both return 4, 8, 14, and 10. The measured timing replay is slowed 20 times.](https://pederbe.dev/media/b70c62c3567c.gif)](https://fastmash.io)
 
