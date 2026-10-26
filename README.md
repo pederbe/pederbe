@@ -61,11 +61,11 @@ The change connects repeated CLI flags to database filtering. Included codes mat
 
 [View the contribution · PR #4132](https://github.com/atuinsh/atuin/pull/4132)
 
-### DeepTutor: diagnose setup problems before a session
+### DeepTutor: diagnose AI tutor setup problems
 
-My contribution added `deeptutor doctor` to check model configuration, credentials, writable storage, and configured retrieval backends. It provides terminal and JSON output, with a failing exit status when required checks fail. Provider requests require `--online`.
+DeepTutor is an open-source AI tutor that helps people learn from their own study materials. I added `deeptutor doctor` to check AI connection settings, access keys, storage permissions and the tools used to search study materials before a session starts. It provides terminal and JSON output for automated checks. Live AI connection tests run only when requested with `--online`.
 
-The PR added tests for diagnostics, credential redaction, and CLI behavior. It reports 78 CLI tests passing and one skipped; the remote test summary also passed. The command gives users a way to investigate setup problems before starting a session.
+Tests cover setup checks, keeping access keys out of diagnostic reports and command-line behavior.
 
 [View the contribution · PR #959](https://github.com/HKUDS/DeepTutor/pull/959)
 
