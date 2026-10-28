@@ -1,12 +1,23 @@
 # Dr. Peder Bergan
 
-I'm a full-stack software engineer with experience building web applications, business software and developer tools. My recent work includes Ripscope for C code navigation and Fastmash for command-line statistics.
+I'm a full-stack software engineer building web applications, backend services and developer tools. My recent work includes Esdieff for connected-device models, Ripscope for C code navigation and Fastmash for command-line statistics.
 
 My background spans software development, business analysis, research, and IT leadership. Earlier in my career, I developed business software for a Toyota dealership and a legislative-text web application prototype for Norway's Ministry of Justice. I later worked on business analysis and software delivery at the European Parliament, coordinating an international development team.
 
 Based in Essen, Germany. PhD in Information Systems.
 
 [Website and contact](https://pederbe.dev/) · [Contributions](https://github.com/pulls?q=is%3Apr+author%3Apederbe+is%3Apublic)
+
+## Esdieff: Put device models to work.
+
+I built Esdieff, a command-line tool and Rust library that helps developers explore, check and test connected-device models written in Semantic Definition Format (SDF), defined by IETF RFC 9880.
+
+Esdieff helps teams understand a supplier's interface, catch model mistakes, compare revisions for breaking changes and generate valid, boundary and invalid test values. It also checks recorded values against the model and supports repeatable checks and machine-readable reports.
+
+I've discussed implementation questions with the RFC authors and the IETF ASDF working group, using concrete examples to clarify how the specification should behave.
+
+Free and open source for Linux, macOS and Windows.
+[Explore Esdieff](https://github.com/pederbe/esdieff)
 
 ## Ripscope: Fast C navigation. An index that keeps up.
 
@@ -40,6 +51,8 @@ On RefGene quartiles, Fastmash took **26.6 ms versus GNU datamash 1.9's 112.8 ms
 </details>
 
 ## Technologies
+
+My backend work includes PostgreSQL, authentication, database migrations, webhook delivery and retries. I also work with integration tests, audit logs, metrics and cloud deployments.
 
 My current work focuses on Rust. My earlier web and business applications used JavaScript, PHP, SQL, HTML/CSS, and VBA. I'm also interested in WebAssembly and Linux.
 
