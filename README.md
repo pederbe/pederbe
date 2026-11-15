@@ -58,6 +58,18 @@ My current work focuses on Rust. My earlier web and business applications used J
 
 ## Selected contributions
 
+### KDE Plasma 6.9
+
+I added a Forget action for saved Wi-Fi networks directly in KDE Plasma's Networks widget, coming in Plasma 6.9. KDE's 14 November 2026 weekly roundup listed it first under “Notable new features” and credited me by name.
+
+[Read the KDE feature mention](https://blogs.kde.org/2026/11/14/this-week-in-plasma-xwayland-on-demand/) · [View the network feature contribution](https://invent.kde.org/plasma/plasma-nm/-/merge_requests/692)
+
+Three other merged KDE contributions improve everyday desktop use:
+
+- [Natural sorting of numbered application names](https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/7354), putting 2 before 10.
+- [Scrolling when navigating the application launcher by letter](https://invent.kde.org/plasma/plasma-desktop/-/merge_requests/4176), keeping the destination applications visible.
+- [Readable remaining time in Timer tooltips](https://invent.kde.org/plasma/kdeplasma-addons/-/merge_requests/1228), replacing a large number of seconds with a formatted duration.
+
 ### SWC: skip unnecessary work in a compiler transform
 
 The `export_default_from` transform traversed scripts even though it only needed module-level exports. My contribution replaced the visitor with a direct pass that returns immediately for scripts and processes the module body for modules.
